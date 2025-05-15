@@ -1,10 +1,8 @@
-public class Main {
+package src.assignment.introduction;
 
-    //This code is a simple Java program that prints "Good morning" to the console.
+public class Introduction {
 
-
-    public static void main(String[] args) {
-
+    public void javaIntroduction() {
         String message = "Good morning";
 
         float height = 5.9f;
@@ -31,12 +29,12 @@ public class Main {
         String name = "Pacific";
         String secondName = null;
 
-       if (name != null && secondName != null) {
-           String fullname = name.concat(" ").concat(secondName);
-           System.out.println(fullname);
-       }else {
-           System.out.println("Name is null");
-       }
+        if (name != null && secondName != null) {
+            String fullname = name.concat(" ").concat(secondName);
+            System.out.println(fullname);
+        }else {
+            System.out.println("Name is null");
+        }
 
 
 
@@ -59,10 +57,7 @@ public class Main {
 //        System.out.println("Initial: " + initial);
 //        System.out.println("Phone Number: " + phoneNumber);
 
-    }
-
-
-//    Multi line comments
+        //    Multi line comments
     /*
 
     public static void main(String[] args) {
@@ -78,5 +73,5 @@ public class Main {
 
      */
 
-
+    }
 }
