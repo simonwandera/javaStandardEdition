@@ -2,6 +2,7 @@ package src.assignment;
 
 import src.assignment.introduction.Introduction;
 import src.assignment.io.BasicInputAndOutput;
+import src.assignment.loops.ForLoop;
 import src.assignment.operators.Operators;
 import src.assignment.zipzap.Assignment;
 
@@ -28,8 +29,11 @@ public class Main {
 
 
         BasicInputAndOutput basicInputAndOutput = new BasicInputAndOutput();
-        basicInputAndOutput.input();
+//        basicInputAndOutput.input();
 
+
+        ForLoop forLoop = new ForLoop();
+        forLoop.grading();
 
 
 
