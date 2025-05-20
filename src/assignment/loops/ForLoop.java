@@ -6,6 +6,11 @@ import java.util.Arrays;
 
 public class ForLoop {
 
+
+    protected String getName(){
+        return "ForLoop";
+    }
+
     public void grading() {
 
 
